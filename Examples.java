@@ -12,7 +12,7 @@ public class Examples {
         SoccerResult soccerResult2 = new SoccerResult(soccer1, soccer2, 149, 147);
         SoccerResult soccerResult3 = new SoccerResult(soccer1, soccer2, 180, 165);
         SoccerResult soccerResult4 = new SoccerResult(soccer1, soccer2, 120, 130);
-
+//your mom
         LegoRobotTeam legoRobotTeam1 = new LegoRobotTeam("WPI", "Goats", 8);
         LegoRobotTeam legoRobotTeam2 = new LegoRobotTeam("MIT", "Beaver", 10);
         LegoRobotResult lrResult1 = new LegoRobotResult(legoRobotTeam1, legoRobotTeam2, 16.0, 7,
