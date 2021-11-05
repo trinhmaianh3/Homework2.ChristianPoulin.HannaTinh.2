@@ -1,0 +1,22 @@
+public class Match{
+//IResult winner;
+IContestant team1;
+IContestant team2;
+IResult result;
+
+public Match (IContestant team1, IContestant team2, IResult result){
+    this.team1 = team1;
+    this.team2 = team2;
+    this.result = result;
+}
+
+    public IContestant winner(){
+       if(result.isValid()){
+           return result.getWinner();
+       }
+       else
+           return null;
+    }
+
+
+}
